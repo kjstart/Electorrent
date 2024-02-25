@@ -339,12 +339,6 @@ export class QBittorrentClient extends TorrentClient<QBittorrentTorrent> {
         click: this.delete,
         icon: "remove",
       },
-      {
-        label: "Remove And Delete",
-        click: this.deleteAndRemove,
-        icon: "trash",
-        role: "delete",
-      },
     ];
 }
 
